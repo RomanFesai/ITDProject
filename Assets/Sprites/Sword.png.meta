@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: ed1c533e89a1c364f9c53a62222d303d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 712035800519618848
+    second: Sword_0
+  - first:
+      213: 1497478763720940017
+    second: Sword_1
+  - first:
+      213: -3664594969507694454
+    second: Sword_2
+  - first:
+      213: -4326360533754234484
+    second: Sword_3
+  - first:
+      213: -2400559193241486504
+    second: Sword_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sword_0
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 0
+        width: 473
+        height: 559
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -219, y: 278}
+        - {x: -230, y: 278}
+        - {x: -221, y: 229}
+        - {x: -55, y: -36}
+        - {x: 98, y: -281}
+        - {x: 103, y: -280}
+        - {x: 233, y: -189}
+        - {x: 236, y: -189}
+        - {x: 233, y: -185}
+        - {x: -172, y: 244}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021355db9c8a1e900800000000000000
+      internalID: 712035800519618848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword_1
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 561
+        width: 463
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 103.5, y: 257}
+        - {x: -33.5, y: 257}
+        - {x: -155.5, y: 254}
+        - {x: -214.5, y: 242}
+        - {x: -217.5, y: 241}
+        - {x: -221.5, y: 241}
+        - {x: -224.5, y: 240}
+        - {x: -229.5, y: 205}
+        - {x: -223.5, y: 34}
+        - {x: -190.5, y: -257}
+        - {x: -47.5, y: -257}
+        - {x: -27.5, y: -255}
+        - {x: -17.5, y: -242}
+        - {x: -19.5, y: -227}
+        - {x: -65.5, y: -143}
+        - {x: -112.5, y: -25}
+        - {x: -123.5, y: 20}
+        - {x: -75.5, y: 100}
+        - {x: -14.5, y: 151}
+        - {x: 74.5, y: 190}
+        - {x: 161.5, y: 207}
+        - {x: 218.5, y: 238}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9174a600d18c410800000000000000
+      internalID: 1497478763720940017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 492
+        width: 410
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -203, y: 290}
+        - {x: -203, y: -294}
+        - {x: -17, y: -282}
+        - {x: -17, y: -261}
+        - {x: -97, y: -25}
+        - {x: -133, y: 84}
+        - {x: -110, y: 142}
+        - {x: -63, y: 164}
+        - {x: -11, y: 195}
+        - {x: 37, y: 200}
+        - {x: 109, y: 217}
+        - {x: 186, y: 220}
+        - {x: 166, y: 243}
+        - {x: 129, y: 257}
+        - {x: -183, y: 290}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a887fc48a4eb42dc0800000000000000
+      internalID: -3664594969507694454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 426
+        width: 412
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -206, y: -248.5}
+        - {x: -206, y: -318.5}
+        - {x: -101, y: -326.5}
+        - {x: -48, y: -323.5}
+        - {x: -51, y: -275.5}
+        - {x: -68, y: -146.5}
+        - {x: -76, y: -17.5}
+        - {x: -77, y: 167.5}
+        - {x: -44, y: 205.5}
+        - {x: 8, y: 214.5}
+        - {x: 93, y: 219.5}
+        - {x: 187, y: 226.5}
+        - {x: -75, y: 319.5}
+        - {x: -79, y: 321.5}
+        - {x: -94, y: 321.5}
+        - {x: -116, y: 275.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c893f4f340ea5f3c0800000000000000
+      internalID: -4326360533754234484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 421
+        width: 387
+        height: 646
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -28.5, y: -296}
+        - {x: -27.5, y: -281}
+        - {x: -26.5, y: -274}
+        - {x: -25.5, y: -259}
+        - {x: -24.5, y: -251}
+        - {x: -23.5, y: -241}
+        - {x: -22.5, y: -229}
+        - {x: -20.5, y: -206}
+        - {x: -19.5, y: -198}
+        - {x: -18.5, y: -188}
+        - {x: -16.5, y: -177}
+        - {x: -17.5, y: -165}
+        - {x: -15.5, y: -160}
+        - {x: -14.5, y: -148}
+        - {x: -13.5, y: -137}
+        - {x: -11.5, y: -127}
+        - {x: -10.5, y: -108}
+        - {x: -9.5, y: -101}
+        - {x: -6.5, y: -74}
+        - {x: -5.5, y: -64}
+        - {x: -3.5, y: -46}
+        - {x: -0.5, y: -23}
+        - {x: 6.5, y: 33}
+        - {x: 8.5, y: 46}
+        - {x: 9.5, y: 65}
+        - {x: 11.5, y: 69}
+        - {x: 12.5, y: 75}
+        - {x: 13.5, y: 84}
+        - {x: 15.5, y: 97}
+        - {x: 16.5, y: 105}
+        - {x: 19.5, y: 125}
+        - {x: 20.5, y: 134}
+        - {x: 22.5, y: 148}
+        - {x: 25.5, y: 165}
+        - {x: 26.5, y: 174}
+        - {x: 28.5, y: 184}
+        - {x: 34.5, y: 222}
+        - {x: 36.5, y: 239}
+        - {x: 38.5, y: 247}
+        - {x: 42.5, y: 262}
+        - {x: 40.5, y: 260}
+        - {x: 96.5, y: 265}
+        - {x: 181.5, y: 261}
+        - {x: 103.5, y: 306}
+        - {x: 42.5, y: 323}
+        - {x: 44.5, y: 323}
+        - {x: 36.5, y: 323}
+        - {x: 34.5, y: 322}
+        - {x: 28.5, y: 313}
+        - {x: 18.5, y: 297}
+        - {x: 15.5, y: 292}
+        - {x: 10.5, y: 280}
+        - {x: 9.5, y: 277}
+        - {x: 5.5, y: 266}
+        - {x: 2.5, y: 260}
+        - {x: -5.5, y: 240}
+        - {x: -9.5, y: 229}
+        - {x: -14.5, y: 219}
+        - {x: -13.5, y: 213}
+        - {x: -17.5, y: 208}
+        - {x: -23.5, y: 197}
+        - {x: -24.5, y: 188}
+        - {x: -29.5, y: 179}
+        - {x: -31.5, y: 171}
+        - {x: -37.5, y: 159}
+        - {x: -39.5, y: 154}
+        - {x: -42.5, y: 147}
+        - {x: -49.5, y: 132}
+        - {x: -53.5, y: 119}
+        - {x: -55.5, y: 114}
+        - {x: -57.5, y: 106}
+        - {x: -62.5, y: 97}
+        - {x: -70.5, y: 77}
+        - {x: -73.5, y: 68}
+        - {x: -78.5, y: 56}
+        - {x: -82.5, y: 42}
+        - {x: -85.5, y: 37}
+        - {x: -87.5, y: 31}
+        - {x: -88.5, y: 27}
+        - {x: -95.5, y: 13}
+        - {x: -94.5, y: 3}
+        - {x: -100.5, y: -4}
+        - {x: -102.5, y: -10}
+        - {x: -107.5, y: -23}
+        - {x: -110.5, y: -32}
+        - {x: -115.5, y: -45}
+        - {x: -118.5, y: -54}
+        - {x: -122.5, y: -64}
+        - {x: -124.5, y: -70}
+        - {x: -129.5, y: -83}
+        - {x: -132.5, y: -93}
+        - {x: -135.5, y: -101}
+        - {x: -137.5, y: -107}
+        - {x: -138.5, y: -111}
+        - {x: -143.5, y: -123}
+        - {x: -146.5, y: -134}
+        - {x: -149.5, y: -141}
+        - {x: -151.5, y: -147}
+        - {x: -153.5, y: -155}
+        - {x: -153.5, y: -161}
+        - {x: -155.5, y: -168}
+        - {x: -158.5, y: -171}
+        - {x: -161.5, y: -178}
+        - {x: -164.5, y: -186}
+        - {x: -166.5, y: -193}
+        - {x: -170.5, y: -204}
+        - {x: -176.5, y: -223}
+        - {x: -179.5, y: -233}
+        - {x: -183.5, y: -244}
+        - {x: -186.5, y: -256}
+        - {x: -190.5, y: -263}
+        - {x: -193.5, y: -269}
+        - {x: -193.5, y: -279}
+        - {x: -192.5, y: -281}
+        - {x: -183.5, y: -281}
+        - {x: -173.5, y: -285}
+        - {x: -152.5, y: -291}
+        - {x: -146.5, y: -293}
+        - {x: -129.5, y: -297}
+        - {x: -124.5, y: -300}
+        - {x: -115.5, y: -304}
+        - {x: -108.5, y: -305}
+        - {x: -66.5, y: -318}
+        - {x: -57.5, y: -320}
+        - {x: -51.5, y: -322}
+        - {x: -46.5, y: -323}
+        - {x: -28.5, y: -323}
+        - {x: -27.5, y: -322}
+        - {x: -27.5, y: -313}
+        - {x: -29.5, y: -310}
+      tessellationDetail: 0.38
+      bones: []
+      spriteID: 85bfa88e1208faed0800000000000000
+      internalID: -2400559193241486504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
