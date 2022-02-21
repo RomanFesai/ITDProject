@@ -138,6 +138,7 @@ public class GameBehaviour : MonoBehaviour, IManager
         Time.timeScale = 0;
         LossScreen.SetActive(true);
         isGameOver = true;
+        UnityEngine.Cursor.lockState = CursorLockMode.Confined;
     }
 
     public void ReturnToMainMenu()
@@ -152,6 +153,7 @@ public class GameBehaviour : MonoBehaviour, IManager
         Time.timeScale = 1;
         SceneManager.LoadScene("SampleScene");
         isGameOver = false;
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
 
 
