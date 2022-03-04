@@ -21,6 +21,7 @@ public class GameBehaviour : MonoBehaviour, IManager
     public GameObject LossScreen;
     public HealthBar healthBar;
     public Text KeysCollected;
+    public MouseLook PlayerCam;
 
     /*private bool mFaded = false;
     public float Duration = 0.4f;*/
@@ -84,6 +85,7 @@ public class GameBehaviour : MonoBehaviour, IManager
         healthBar.SetMaxHealth(_playerLives);
         UnityEngine.Cursor.visible = false;
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+        PlayerCam = GameObject.Find("Main Camera").GetComponent<MouseLook>();
     }
 
     public void Initialize()
@@ -139,6 +141,7 @@ public class GameBehaviour : MonoBehaviour, IManager
         LossScreen.SetActive(true);
         isGameOver = true;
         UnityEngine.Cursor.lockState = CursorLockMode.Confined;
+        PlayerCam.enabled = false;
     }
 
     public void ReturnToMainMenu()

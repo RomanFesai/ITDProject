@@ -32,11 +32,11 @@ public class PlayerBehavior : MonoBehaviour
     Vector3 velocity;
     bool IsGrounded;
 
-    private float vInput;
-    private float hInput;
+    private float zInput;
+    private float xInput;
     private bool mInput;
     private bool ACTIVE = false;
-    private Rigidbody _rb;
+    
     private CapsuleCollider _col;
     private GameBehaviour _gameManager;
     //Raycast sword
@@ -50,7 +50,6 @@ public class PlayerBehavior : MonoBehaviour
 
     void Start()
     {
-        _rb = GetComponent<Rigidbody>();
         _col = GetComponent<CapsuleCollider>();
 
         _gameManager = GameObject.Find("Exit").GetComponent<GameBehaviour>();
@@ -60,13 +59,8 @@ public class PlayerBehavior : MonoBehaviour
     void Update()
     {
         mInput = false;
-        vInput = Input.GetAxis("Vertical") * moveSpeed;
-        hInput = Input.GetAxis("Horizontal") * rotateSpeed;
+        Movement();
 
-        /*
-        this.transform.Translate(Vector3.forward * vInput * Time.deltaTime);
-        this.transform.Rotate(Vector3.up * hInput * Time.deltaTime);
-        */
         if (isGrounded() && velocity.y < 0)
         {
             velocity.y = -2f;
@@ -75,7 +69,9 @@ public class PlayerBehavior : MonoBehaviour
         {
             velocity.y = Mathf.Sqrt(jumpVelocity * -2f * gravity);
         }
-        /*if (Input.GetMouseButtonDown(1) && Time.time > nextFire)//fireball
+
+        //fireball
+        /*if (Input.GetMouseButtonDown(1) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             GameObject newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation) as GameObject;
@@ -105,11 +101,6 @@ public class PlayerBehavior : MonoBehaviour
         }
     }
 
-     void FixedUpdate()
-    {
-       Movement();
-    }
-
     public void checkWalk()
     {
         if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || (Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.S))) 
@@ -124,16 +115,16 @@ public class PlayerBehavior : MonoBehaviour
 
     public void Movement()
     {
-        Vector3 rotation = Vector3.up * hInput;
-        Quaternion angleRot = Quaternion.Euler(rotation * Time.fixedDeltaTime);
-        //_rb.MovePosition(this.transform.position + this.transform.forward * vInput * Time.fixedDeltaTime);
-        _rb.MoveRotation(_rb.rotation * angleRot);
-        //float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-        Vector3 move = transform.forward * z;
-        controller.Move(move * moveSpeed * Time.fixedDeltaTime);
-        velocity.y += gravity * Time.fixedDeltaTime;
-        controller.Move(velocity * Time.fixedDeltaTime);
+        zInput = Input.GetAxis("Vertical");
+        xInput = Input.GetAxis("Horizontal");
+
+        Vector3 move = transform.right * xInput + transform.forward * zInput;
+        if (move.magnitude > 1)
+            move /= move.magnitude;
+        controller.Move(move * moveSpeed * Time.deltaTime);
+
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
     }
 
     public bool isGrounded()

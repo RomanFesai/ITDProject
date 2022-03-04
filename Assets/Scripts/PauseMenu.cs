@@ -8,7 +8,12 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject PauseWindow;
     public GameBehaviour IsLoss;
+    public MouseLook PlayerCam;
 
+    void Start()
+    {
+        PlayerCam = GameObject.Find("Main Camera").GetComponent<MouseLook>();
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -29,6 +34,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
+        PlayerCam.enabled = true;
         Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1;
         GameIsPaused = false;
@@ -38,6 +44,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Pause()
     {
+        PlayerCam.enabled=false;
         Cursor.lockState = CursorLockMode.Confined;
         Time.timeScale = 0;
         GameIsPaused = true;
